@@ -5,7 +5,6 @@ body {
     padding: 0;
 }
 
-
 /* Estilos para el menú de navegación */
 .navbar {
     background-color: transparent;
@@ -16,7 +15,7 @@ body {
 .menu {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 10px;
     display: flex;
     justify-content: center;
 }
@@ -62,16 +61,15 @@ body {
     display: block;
 }
 
-
-
 /* Estilos para el contenido de la página */
 .content {
     max-width: 800px;
-    margin: 20px auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8em;
+    margin-bottom: 0.7em;
     text-align: center;
 }
-
-
 
 .container {
     display: flex;
@@ -93,15 +91,11 @@ body {
         height: auto;
     }
 
-
-    .content img {
-        max-width: 100%;
-        height: auto;
-        margin-top: 20px;
-    }
-
-
-
+.content img {
+    max-width: 90vh;
+    height: auto;
+    margin-top: 20px;
+}
 
 .titleHero {
     color: white;
@@ -122,11 +116,7 @@ body {
     margin-bottom: -9px;
 }
 
-
-
-
 /*Footer*/
-
 a > i {
     color: #ffffff;
 }
@@ -147,6 +137,10 @@ a > i {
         margin-right: 13px;
         margin-left: 19px;
     }
+
+p {
+    text-align: justify;
+}
 
 ul {
     list-style: none;
@@ -265,9 +259,6 @@ a > i:hover {
 .contact-column {
     width: 100%;
 }
-
-
-
 
 @media (max-width: 600px) {
     .box_hero {
