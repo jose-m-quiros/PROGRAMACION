@@ -70,18 +70,31 @@
     <Content Include="contacto.html" />
     <Content Include="equipo.html" />
     <Content Include="index.html" />
+    <Content Include="ingresar.css" />
     <Content Include="ingresar.html" />
+    <Content Include="ingresar.js" />
     <Content Include="JavaScript.js" />
+    <Content Include="logueado.html" />
+    <Content Include="logueado.js" />
     <Content Include="navbar.js" />
     <Content Include="script.js" />
     <Content Include="servicios.html" />
     <Content Include="style.css" />
     <Content Include="Web.config" />
+    <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <None Include=".editorconfig" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

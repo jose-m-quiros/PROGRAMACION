@@ -119,6 +119,12 @@ body {
     margin-bottom: -9px;
 }
 
+p > a {
+    text-align: center;
+    display: block;
+}
+
+
 /*Footer*/
 a > i {
     color: #ffffff;
