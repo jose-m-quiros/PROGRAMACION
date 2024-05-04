@@ -4,6 +4,8 @@
     <meta charset="utf-8" />
     <title></title>
     <link rel="stylesheet" href="ingresar.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 
 </head>
 <body>
@@ -15,20 +17,19 @@
             <div class="form-group">
                 <label for="username">Usuario</label>
                 <input type="text" id="username" name="username" required>
-                <span id="usernameError" style="color: red; display: none;">No tiene usuario</span>
+                <span id="usernameError" class="error-message">No tiene usuario</span>
             </div>
             <div class="form-group">
                 <label for="code">Código (5 dígitos)</label>
                 <input type="password" id="code" name="code" minlength="5" maxlength="5" required>
-                <span id="codeError" style="color: red; display: none;">Código incorrecto</span>
+                <span id="codeError" class="error-message">Código incorrecto</span>
             </div>
             <div class="form-group">
                 <input type="submit" value="Ingresar">
             </div>
-
-            <a href="index.html" class="btn">Volver a la página de inicio</a>
-
-
+            <div class="btn">
+            <a class="btn" href="index.html" id="returnButton">Volver a la página de inicio</a>
+            </div>
         </form>
     </div>
 

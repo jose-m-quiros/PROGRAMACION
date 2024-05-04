@@ -4,20 +4,24 @@
     }
 
     addMenuItem(text, url, isDropdown = false) {
-        if (!this.navElement.querySelector(`a[href="${url}"]`)) {
-            const li = document.createElement('li');
-            const a = document.createElement('a');
-            a.href = url;
-            a.textContent = text;
+        if (this.navElement) {
+            if (!this.navElement.querySelector(`a[href="${url}"]`)) {
+                const li = document.createElement('li');
+                const a = document.createElement('a');
+                a.href = url;
+                a.textContent = text;
 
-            if (isDropdown) {
-                li.classList.add('dropdown');
-                a.classList.add('dropbtn');
-                li.appendChild(document.createElement('div')).classList.add('dropdown-content');
+                if (isDropdown) {
+                    li.classList.add('dropdown');
+                    a.classList.add('dropbtn');
+                    li.appendChild(document.createElement('div')).classList.add('dropdown-content');
+                }
+
+                li.appendChild(a);
+                this.navElement.appendChild(li);
             }
-
-            li.appendChild(a);
-            this.navElement.appendChild(li);
+        } else {
+            
         }
     }
 }

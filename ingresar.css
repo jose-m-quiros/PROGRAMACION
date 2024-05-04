@@ -15,11 +15,12 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
     max-width: 400px;
-    width: 100%;
+    width: 90%;
 }
 
     .login-container h2 {
         text-align: center;
+        margin-bottom: 20px;
     }
 
 .form-group {
@@ -34,7 +35,7 @@
 
     .form-group input[type="text"],
     .form-group input[type="password"] {
-        width: 90%;
+        width: 95%;
         padding: 10px;
         border-radius: 3px;
         border: 1px solid #ccc;
@@ -47,6 +48,8 @@
         padding: 10px 20px;
         border-radius: 3px;
         cursor: pointer;
+        width: 100%;
+        margin-top: 20px;
     }
 
         .form-group input[type="submit"]:hover {
@@ -56,9 +59,8 @@
 .error-message {
     color: red;
     display: none;
+    margin-top: 10px;
 }
-
-
 
 #returnButton {
     background-color: #007bff;
@@ -67,12 +69,15 @@
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: block;
     font-size: 16px;
     margin-top: 20px;
     cursor: pointer;
+    border-radius: 3px;
+    
 }
 
     #returnButton:hover {
         background-color: #0056b3;
     }
+
