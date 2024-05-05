@@ -13,8 +13,7 @@
                                         <p><strong>Nombre:</strong> ${usuario.nombre}</p>
                                         <p><strong>Apellido:</strong> ${usuario.apellido}</p>
                                         <p><strong>Correo:</strong> ${usuario.correo}</p>
-                                        <p>-----------------------------------------------------<p/>
-                                        
+                                        <p>----------------------------------------------------<p/>
                                     </div>`;
                 usuariosContainer.append(usuarioHtml);
             });
