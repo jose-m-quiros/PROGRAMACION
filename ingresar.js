@@ -6,7 +6,23 @@
 
     var users = [
         { username: "Dangelo", code: "12345" },
-        // Otros usuarios aquí...
+        { username: "Steven", code: "67890" },
+        { username: "Jesus", code: "54321" },
+        { username: "Paula", code: "98765" },
+        { username: "Carlos", code: "13579" },
+        { username: "Kevin", code: "13570" },
+        { username: "Cristian", code: "97531" },
+        { username: "JM", code: "24681" },
+        { username: "JP", code: "24680" },
+        { username: "Lian", code: "46802" },
+        { username: "Fiorela", code: "86420" },
+        { username: "Greyson", code: "97531" },
+        { username: "Ethan", code: "24681" },
+        { username: "Samantha", code: "46802" },
+        { username: "David", code: "13570" },
+        { username: "Daniel", code: "80246" },
+        { username: "Estefany", code: "80246" },
+        { username: "Quiros", code: "97531" }
     ];
 
     var isValidUser = users.some(function (user) {
