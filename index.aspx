@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="PROYECTO_DE_PROGRAMACION.index" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="index.aspx.cs" Inherits="PROYECTO_DE_PROGRAMACION.index" %>
 
 <!DOCTYPE html>
 
@@ -21,7 +21,8 @@
                         <a href="servicios.aspx">Equipo</a>
                         <a href="servicios.aspx">Servicios</a>
                         <a href="servicios.aspx">Contacto</a>
-                        <asp:HyperLink ID="IngresarLink" runat="server" Text="Ingresar" OnClientClick="redirectToAspxPage(); return false;"></asp:HyperLink>
+                        <a href="Registros.aspx">Ingresar</a>
+                        <%--<asp:HyperLink ID="IngresarLink" runat="server" Text="Ingresar" OnClientClick="redirectToAspxPage(); return false;"></asp:HyperLink>--%>
                     </div>
                 </li>
             </ul>

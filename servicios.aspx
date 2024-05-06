@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="servicios.aspx.cs" Inherits="PROYECTO_DE_PROGRAMACION.servicios" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="servicios.aspx.cs" Inherits="PROYECTO_DE_PROGRAMACION.servicios" %>
 
 
 <!DOCTYPE html>
@@ -16,7 +16,7 @@
         <nav id="navbar" class="navbar">
             <ul class="menu">
                 <!--<li><a href="index.html">Inicio</a></li>-->
-                <li><a href="index.html">Inicio</a></li>
+                <li><a href="index.aspx">Inicio</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropbtn">Más Recursos</a>
                     <div class="dropdown-content">

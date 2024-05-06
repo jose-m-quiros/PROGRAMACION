@@ -72,6 +72,7 @@
   <ItemGroup>
     <Content Include="css\clientes.css" />
     <Content Include="clientes.html" />
+    <Content Include="index.aspx" />
     <Content Include="ingresar.aspx" />
     <Content Include="js\clientes.js" />
     <Content Include="index.html" />
@@ -83,6 +84,7 @@
     <Content Include="Registros.aspx" />
     <Content Include="js\script.js" />
     <Content Include="js\server.js" />
+    <Content Include="servicios.aspx" />
     <Content Include="servicios.html" />
     <Content Include="css\style.css" />
     <Content Include="css\usuarios-guardados.css" />
@@ -92,6 +94,13 @@
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ingresar.aspx.cs">
       <DependentUpon>ingresar.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -106,6 +115,13 @@
     </Compile>
     <Compile Include="Registros.aspx.designer.cs">
       <DependentUpon>Registros.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="servicios.aspx.cs">
+      <DependentUpon>servicios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="servicios.aspx.designer.cs">
+      <DependentUpon>servicios.aspx</DependentUpon>
     </Compile>
     <Compile Include="usuarios-guardados.aspx.cs">
       <DependentUpon>usuarios-guardados.aspx</DependentUpon>
