@@ -44,6 +44,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -69,6 +72,7 @@
   <ItemGroup>
     <Content Include="css\clientes.css" />
     <Content Include="clientes.html" />
+    <Content Include="ingresar.aspx" />
     <Content Include="js\clientes.js" />
     <Content Include="index.html" />
     <Content Include="css\ingresar.css" />
@@ -84,12 +88,20 @@
     <Content Include="servicios.html" />
     <Content Include="css\style.css" />
     <Content Include="css\usuarios-guardados.css" />
+    <Content Include="usuarios-guardados.aspx" />
     <Content Include="usuarios-guardados.html" />
     <Content Include="js\usuarios-guardados.js" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ingresar.aspx.cs">
+      <DependentUpon>ingresar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ingresar.aspx.designer.cs">
+      <DependentUpon>ingresar.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Registros.aspx.cs">
       <DependentUpon>Registros.aspx</DependentUpon>
@@ -97,6 +109,12 @@
     </Compile>
     <Compile Include="Registros.aspx.designer.cs">
       <DependentUpon>Registros.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="usuarios-guardados.aspx.cs">
+      <DependentUpon>usuarios-guardados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="usuarios-guardados.aspx.designer.cs">
+      <DependentUpon>usuarios-guardados.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
