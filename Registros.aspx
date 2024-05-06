@@ -45,7 +45,7 @@
         sessionStorage.removeItem("Usuarios");
 
         // Redirigir a la página de inicio de sesión
-        window.location.href = "ingresar.aspx";
+        window.location.href = "ingresar.html";
     }
     </script>
 

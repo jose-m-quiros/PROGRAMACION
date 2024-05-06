@@ -1,0 +1,2 @@
+C:\Users\usuario\Documents\Programacion\PROYECTO-DE-PROGRAMACION\PROYECTO-DE-PROGRAMACION\obj\Release\PROYECTO-DE-PROGRAMACION.csproj.AssemblyReference.cache
+C:\Users\usuario\Documents\Programacion\PROYECTO-DE-PROGRAMACION\PROYECTO-DE-PROGRAMACION\obj\Release\PROYECTO-DE-PROGRAMACION.csproj.CoreCompileInputs.cache

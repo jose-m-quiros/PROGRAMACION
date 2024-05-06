@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace PROYECTO_DE_PROGRAMACION
 {
-    public partial class WebForm1 : System.Web.UI.Page
+    public partial class usuarios_guardados : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

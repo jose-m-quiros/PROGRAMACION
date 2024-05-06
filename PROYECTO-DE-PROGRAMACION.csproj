@@ -75,7 +75,6 @@
     <Content Include="index.aspx" />
     <Content Include="ingresar.aspx" />
     <Content Include="js\clientes.js" />
-    <Content Include="index.html" />
     <Content Include="css\ingresar.css" />
     <Content Include="js\ingresar.js" />
     <Content Include="js\navbar.js" />
@@ -90,6 +89,7 @@
     <Content Include="css\usuarios-guardados.css" />
     <Content Include="usuarios-guardados.aspx" />
     <Content Include="js\usuarios-guardados.js" />
+    <Content Include="usuarios-guardados.html" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
@@ -125,13 +125,13 @@
     </Compile>
     <Compile Include="usuarios-guardados.aspx.cs">
       <DependentUpon>usuarios-guardados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="usuarios-guardados.aspx.designer.cs">
       <DependentUpon>usuarios-guardados.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="WebForm1.aspx.designer.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
@@ -140,6 +140,8 @@
   <ItemGroup>
     <None Include=".editorconfig" />
     <None Include="packages.config" />
+    <None Include="Properties\PublishProfiles\PROYECTO-DE-PROGRAMACION - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\PROYECTO-DE-PROGRAMACION20240506113259 - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

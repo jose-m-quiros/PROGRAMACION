@@ -7,38 +7,34 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace PROYECTO_DE_PROGRAMACION
-{
 
 
-    public partial class Ingresar
-    {
+public partial class  {
 
-        /// <summary>
-        /// loginForm control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm loginForm;
+    /// <summary>
+    /// loginForm control.
+    /// </summary>
+    /// <remarks>
+    /// Auto-generated field.
+    /// To modify move field declaration from designer file to code-behind file.
+    /// </remarks>
+    protected global::System.Web.UI.HtmlControls.HtmlForm loginForm;
 
-        /// <summary>
-        /// usernameError control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label usernameError;
+    /// <summary>
+    /// usernameError control.
+    /// </summary>
+    /// <remarks>
+    /// Auto-generated field.
+    /// To modify move field declaration from designer file to code-behind file.
+    /// </remarks>
+    protected global::System.Web.UI.WebControls.Label usernameError;
 
-        /// <summary>
-        /// codeError control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label codeError;
-    }
+    /// <summary>
+    /// codeError control.
+    /// </summary>
+    /// <remarks>
+    /// Auto-generated field.
+    /// To modify move field declaration from designer file to code-behind file.
+    /// </remarks>
+    protected global::System.Web.UI.WebControls.Label codeError;
 }
