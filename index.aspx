@@ -18,11 +18,12 @@
                 <li class="dropdown">
                     <a href="#" class="dropbtn">Más Recursos</a>
                     <div class="dropdown-content">
-                        <a href="servicios.aspx">Equipo</a>
-                        <a href="servicios.aspx">Servicios</a>
-                        <a href="servicios.aspx">Contacto</a>
-                        
-                        <asp:HyperLink ID="IngresarLink" runat="server" Text="Ingresar" OnClientClick="redirectToAspxPage(); return false;"></asp:HyperLink>
+
+                        <asp:HyperLink ID="EquipoLink" runat="server" Text="Equipo" NavigateUrl="servicios.aspx"></asp:HyperLink>
+                        <asp:HyperLink ID="ServiciosLink" runat="server" Text="Servicios" NavigateUrl="servicios.aspx"></asp:HyperLink>
+                        <asp:HyperLink ID="ContactoLink" runat="server" Text="Contacto" NavigateUrl="servicios.aspx"></asp:HyperLink>
+                        <asp:HyperLink ID="HyperLink1" runat="server" Text="Ingresar" NavigateUrl="ingresar.aspx"></asp:HyperLink>
+
                     </div>
                 </li>
             </ul>

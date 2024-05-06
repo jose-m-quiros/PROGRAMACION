@@ -16,14 +16,14 @@
         <nav id="navbar" class="navbar">
             <ul class="menu">
                 <!--<li><a href="index.html">Inicio</a></li>-->
-                <li><a href="index.aspx">Inicio</a></li>
+                <asp:HyperLink ID="InicioLink" runat="server" NavigateUrl="index.aspx" Text="Inicio"></asp:HyperLink>
                 <li class="dropdown">
                     <a href="#" class="dropbtn">Más Recursos</a>
                     <div class="dropdown-content">
                         <a href="#integrantes">Equipo</a>
                         <a href="#servicios">Servicios</a>
                         <a href="#contactos">Contacto</a>
-                        <a href="ingresar.aspx">Ingresar</a>
+                        <asp:HyperLink ID="IngresarLink" runat="server" NavigateUrl="ingresar.aspx" Text="Ingresar"></asp:HyperLink>
                     </div>
                 </li>
             </ul>

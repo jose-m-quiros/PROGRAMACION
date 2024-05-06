@@ -27,7 +27,7 @@
                 <input type="submit" value="Ingresar" />
             </div>
             <div class="btn">
-                <a class="btn" href="index.html" id="returnButton">Volver a la página de inicio</a>
+                <a class="btn" href="index.aspx" id="returnButton">Volver a la página de inicio</a>
             </div>
         </form>
     </div>
