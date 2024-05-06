@@ -1,5 +1,5 @@
 ﻿
-<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Ingresar.aspx.cs" Inherits="PROYECTO_DE_PROGRAMACION.Ingresar"
+<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Ingresar.aspx.cs" Inherits="PROYECTO_DE_PROGRAMACION.Ingresar"
 
 <!DOCTYPE html>
 
