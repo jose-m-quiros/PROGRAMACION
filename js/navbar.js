@@ -25,3 +25,8 @@
 const navbar = new Navbar('#navbar');
 navbar.addMenuItem('Inicio', '#AI');
 navbar.addMenuItem('Más Recursos', '#', true);
+
+
+function redirectToAspxPage() {
+    window.location.href = 'ingresar.aspx'; // Reemplaza 'ingresar.aspx' con la URL correcta de tu página .aspx
+}

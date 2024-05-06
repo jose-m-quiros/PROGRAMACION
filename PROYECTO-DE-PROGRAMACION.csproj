@@ -76,11 +76,9 @@
     <Content Include="js\clientes.js" />
     <Content Include="index.html" />
     <Content Include="css\ingresar.css" />
-    <Content Include="ingresar.html" />
     <Content Include="js\ingresar.js" />
     <Content Include="js\navbar.js" />
     <Content Include="css\registro.css" />
-    <Content Include="Registro.html" />
     <Content Include="js\registro.js" />
     <Content Include="Registros.aspx" />
     <Content Include="js\script.js" />
@@ -89,7 +87,6 @@
     <Content Include="css\style.css" />
     <Content Include="css\usuarios-guardados.css" />
     <Content Include="usuarios-guardados.aspx" />
-    <Content Include="usuarios-guardados.html" />
     <Content Include="js\usuarios-guardados.js" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
