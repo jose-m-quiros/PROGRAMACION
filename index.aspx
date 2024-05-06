@@ -21,8 +21,8 @@
                         <a href="servicios.aspx">Equipo</a>
                         <a href="servicios.aspx">Servicios</a>
                         <a href="servicios.aspx">Contacto</a>
-                        <a href="Registros.aspx">Ingresar</a>
-                        <%--<asp:HyperLink ID="IngresarLink" runat="server" Text="Ingresar" OnClientClick="redirectToAspxPage(); return false;"></asp:HyperLink>--%>
+                        
+                        <asp:HyperLink ID="IngresarLink" runat="server" Text="Ingresar" OnClientClick="redirectToAspxPage(); return false;"></asp:HyperLink>
                     </div>
                 </li>
             </ul>
