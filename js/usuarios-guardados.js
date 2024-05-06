@@ -2,7 +2,7 @@
     mostrarUsuariosRegistrados();
 
     function mostrarUsuariosRegistrados() {
-        let usuariosRegistrados = JSON.parse(localStorage.getItem('usuariosRegistrados')) || [];
+        let usuariosRegistrados = JSON.parse(sessionStorage.getItem('usuariosRegistrados')) || [];
         let usuariosContainer = $('#usuariosContainer');
 
         if (usuariosRegistrados.length > 0) {

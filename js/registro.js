@@ -31,14 +31,14 @@
         let apellido = $('#apellido').val();
         let correo = $('#correo').val();
 
-        // Obtener los usuarios registrados del localStorage
-        let usuariosRegistrados = JSON.parse(localStorage.getItem('usuariosRegistrados')) || [];
+        // Obtener los usuarios registrados del sessionStorage
+        let usuariosRegistrados = JSON.parse(sessionStorage.getItem('usuariosRegistrados')) || [];
 
         // Agregar el nuevo usuario a la lista
         usuariosRegistrados.push({ nombre: nombre, apellido: apellido, correo: correo });
 
-        // Guardar la lista actualizada en localStorage
-        localStorage.setItem('usuariosRegistrados', JSON.stringify(usuariosRegistrados));
+        // Guardar la lista actualizada en sessionStorage
+        sessionStorage.setItem('usuariosRegistrados', JSON.stringify(usuariosRegistrados));
 
         alert('Usuario registrado correctamente.');
         this.reset();
